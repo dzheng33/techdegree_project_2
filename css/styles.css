@@ -1,0 +1,14 @@
+/* @font-face {
+    font-family: 'Arimo';
+} */
+
+* {
+    box-sizing: border-box;
+}
+article {
+    width: 100%;
+}
+
+img{
+    max-width: 100%;
+}
