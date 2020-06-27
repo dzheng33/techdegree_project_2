@@ -4,6 +4,12 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Bold.ttf);
+    font-style: normal;
+}
+
 * {
     box-sizing: border-box;
     font-family: Arimo;
@@ -15,6 +21,10 @@ body {
 
 header {
     text-align: center;
+}
+
+h1 {
+    font-family: 'Roboto';
 }
 
 nav a {
@@ -62,10 +72,15 @@ footer {
 
 .name {
     float: left;
+    font-family: 'Roboto';
 }
 
 .btt {
     float: right;
+}
+
+a:hover {
+ color: tomato;
 }
 
 .clearfix::after {
