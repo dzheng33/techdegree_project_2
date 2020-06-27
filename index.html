@@ -8,23 +8,29 @@
 </head>
 <body>
     <header>
+        <div class="clearfix">
         <h1>David Zheng</h1>
-        <nav>
-            <a href="#">HOME</a>
-            <a href="#">PORTFOLIO</a>
-            <a href="#">CONTACT</a>
-        </nav>
-        <img src="images/responsive-layout-profile.png" alt="Profile Picture">
-        <p>
-           Hi! I'm a front-end-developer who loves responsive design and css. 
-           I recently finished learning front-end web develepment at Treehouse
-           and am excited to put all my skills to use!
-        </p>
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="#portfolio">PORTFOLIO</a>
+                <a href="#contact">CONTACT</a>
+                <a href="#skills">SKILLS</a>
+            </nav>
+        </div>
+
+        <div id="picinfo" class="clearfix">
+            <img id="profilepic" src="images/responsive-layout-profile.png" alt="Profile Picture">
+            <p>
+            Hi! I'm a front-end-developer who loves responsive design and css. 
+            I recently finished learning front-end web develepment at Treehouse
+            and am excited to put all my skills to use!
+            </p>
+        </div>
     </header>
 
     <main>
-        <section>
-            <h2>PORTFOLIO</h2>
+        <section class="clearfix">
+            <h2 id="portfolio">PORTFOLIO</h2>
 
             <article>
                 <img src="images/portfolio-1.png" alt="Marketing Page">
@@ -76,7 +82,7 @@
         </section>
 
         <aside>
-            <h2>CONTACT</h2>
+            <h2 id="contact">CONTACT</h2>
             <p>If you're interested in chatting or want more information
                 about what I've been working on, I'd love to hear from you!
             </p>
@@ -84,11 +90,20 @@
             <p>Email: <a href="mailto:email@yoursite.com">email@yoursite.com</a></p>
         </aside>
 
+        <div id="skills">
+            <h2>Skills</h2>
+
+           <ul>
+               <li>HTML</li>
+               <li>CSS</li>
+           </ul>
+
+        </div>
     </main>
 
-    <footer>
-        <h3>David Zheng</h3>
-        <h3>BACK TO TOP</h3>
+    <footer class="clearfix">
+        <h3 class="name">David Zheng</h3>
+        <h3 class="btt"><a href="index.html">BACK TO TOP</a></h3>
     </footer>
 </body>
 </html>
