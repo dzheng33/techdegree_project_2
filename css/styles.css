@@ -49,6 +49,16 @@ section {
     text-align: center;
 }
 
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    margin-right: 40px;
+    
+}
+
 img{
     max-width: 100%;
   
@@ -70,6 +80,10 @@ footer {
 
 a:hover {
  color: tomato;
+}
+
+#footernav {
+    display: none;
 }
 
 .clearfix::after {
@@ -111,6 +125,17 @@ a:hover {
     #skills {
         width: 90%;
     }
+
+    #footernav {
+        display: block;
+        float: right;
+        margin: 15px auto 15px;
+  
+    }
+
+    .btt {
+        display: none;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -150,15 +175,7 @@ a:hover {
         margin: auto;
     }
 
-    ul li {
-        list-style-type: none;
-        display: inline-block;
-        padding: 10px;
-        background-color: teal;
-        color: white;
-        margin-right: 40px;
-        
-    }
+
 
     aside,
     #skills {
