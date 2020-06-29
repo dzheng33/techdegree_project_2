@@ -1,18 +1,7 @@
-@font-face {
-    font-family: 'Arimo';
-    src: url(fonts/Arimo-Regular.ttf);
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: url(fonts/Roboto-Bold.ttf);
-    font-style: normal;
-}
 
 * {
     box-sizing: border-box;
-    font-family: Arimo;
+    font-family: 'Arimo', sans-serif;
 }
 
 body {
@@ -24,7 +13,7 @@ header {
 }
 
 h1 {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 nav a {
@@ -152,8 +141,23 @@ a:hover {
     h2 {
         width: 99.9%;
     }
-    article{
+    article {
        width: 33.3%;
+    }
+
+    article p {
+        max-width: 325px;
+        margin: auto;
+    }
+
+    ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px;
+        background-color: teal;
+        color: white;
+        margin-right: 40px;
+        
     }
 
     aside,
